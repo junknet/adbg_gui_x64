@@ -1,0 +1,29 @@
+/* MainWindow {
+    background-color: #cec024; 
+} */
+
+DisassView {
+    background-color: #212121; 
+    color: #3cbfbb;
+}
+
+
+DumpView {
+    background-color: #212121; 
+    color: #3cbfbb;
+}
+
+RegsView {
+    background-color: #212121; 
+    color: #3cbfbb;
+}
+
+StackView {
+    background-color: #212121; 
+    color: #3cbfbb;
+}
+
+MapView {
+    background-color: #212121; 
+    color: #3cbfbb;
+}

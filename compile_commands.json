@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/adbg_autogen/mocs_compilation.cpp.o -c /home/junknet/Desktop/adbg/build/adbg_autogen/mocs_compilation.cpp",
+  "file": "/home/junknet/Desktop/adbg/build/adbg_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/src/CPUView.cpp.o -c /home/junknet/Desktop/adbg/src/CPUView.cpp",
+  "file": "/home/junknet/Desktop/adbg/src/CPUView.cpp"
+},
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/src/MAPView.cpp.o -c /home/junknet/Desktop/adbg/src/MAPView.cpp",
+  "file": "/home/junknet/Desktop/adbg/src/MAPView.cpp"
+},
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/src/main.cpp.o -c /home/junknet/Desktop/adbg/src/main.cpp",
+  "file": "/home/junknet/Desktop/adbg/src/main.cpp"
+},
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/src/mainwindow.cpp.o -c /home/junknet/Desktop/adbg/src/mainwindow.cpp",
+  "file": "/home/junknet/Desktop/adbg/src/mainwindow.cpp"
+},
+{
+  "directory": "/home/junknet/Desktop/adbg/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/junknet/Desktop/adbg/build -I/home/junknet/Desktop/adbg -I/home/junknet/Desktop/adbg/build/adbg_autogen/include -I/usr/include/capstone -I/home/junknet/Desktop/adbg/./src -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/adbg.dir/adbg_autogen/EWIEGA46WW/qrc_resource.cpp.o -c /home/junknet/Desktop/adbg/build/adbg_autogen/EWIEGA46WW/qrc_resource.cpp",
+  "file": "/home/junknet/Desktop/adbg/build/adbg_autogen/EWIEGA46WW/qrc_resource.cpp"
+}
+]
