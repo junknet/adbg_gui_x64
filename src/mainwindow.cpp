@@ -13,6 +13,8 @@
 #include <qshortcut.h>
 #include <string>
 
+std::string TARGET_NAME = "com.example.myapplication";
+
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
@@ -53,7 +55,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     connect(dumpView, SIGNAL(msg_dump_addWatch_sig(uint64_t)), this, SLOT(msg_dump_addWatch_slot(uint64_t)));
 
     QShortcut *step_button = new QShortcut(this);
-    step_button->setKey(tr("f3"));
+    step_button->setKey(tr("f5"));
     step_button->setAutoRepeat(false);
 
     QShortcut *bp_button = new QShortcut(this);
@@ -83,7 +85,7 @@ void MainWindow::on_actionopen_triggered()
         return;
     }
     //  set debug target process name
-    socketClient_->write("target_aarch");
+    socketClient_->write(TARGET_NAME.c_str());
 
     connect(socketClient_, SIGNAL(readyRead()), this, SLOT(socketHandle()));
     connect(socketClient_, SIGNAL(disconnected()), this, SLOT(socketClose()));

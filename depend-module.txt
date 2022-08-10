@@ -1,0 +1,4 @@
+boost 全套
+fmt
+capstone
+qt6

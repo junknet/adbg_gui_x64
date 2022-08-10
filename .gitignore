@@ -1,3 +1,4 @@
 .cache
 build
 .clang-format
+/home/junknet/Desktop/adbg_x64/compile_commands.json
