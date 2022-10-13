@@ -267,10 +267,10 @@ void DisassView::keyPressEvent(QKeyEvent *event)
     {
         QString color_str;
         auto text = QInputDialog::getText(this, "", "");
-        uint64_t addr = text.toUInt(nullptr, 16);
+        uint64_t addr = text.toULongLong(nullptr, 16);
         if (!addr)
         {
-            qDebug() << "addr toUInt error!";
+            logd("addr toUInt error! {}", text.toStdString());
             return;
         }
         jumpTo(addr);
@@ -381,10 +381,10 @@ void DumpView::keyPressEvent(QKeyEvent *event)
     if (key == Qt::Key_G)
     {
         auto text = QInputDialog::getText(this, "", "");
-        uint64_t addr = text.toUInt(nullptr, 16);
+        uint64_t addr = text.toULongLong(nullptr, 16);
         if (!addr)
         {
-            qDebug() << "addr toUInt error!";
+            logd("addr to toulonglong err ,{}", text.toStdString());
             return;
         }
         emit msg_dump_jump_sig(addr);
@@ -392,10 +392,10 @@ void DumpView::keyPressEvent(QKeyEvent *event)
     else if (key == Qt::Key_B)
     {
         auto text = QInputDialog::getText(this, "add watch", "");
-        uint64_t addr = text.toUInt(nullptr, 16);
+        uint64_t addr = text.toULongLong(nullptr, 16);
         if (!addr)
         {
-            qDebug() << "addr toUInt error!";
+            logd("addr to toulonglong err ,{}", text.toStdString());
             return;
         }
         emit msg_dump_addWatch_sig(addr);

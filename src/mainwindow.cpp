@@ -13,7 +13,7 @@
 #include <qshortcut.h>
 #include <string>
 
-std::string TARGET_NAME = "com.example.myapplication";
+std::string TARGET_NAME = "com.taobao.taobao";
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
 {
